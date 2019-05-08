@@ -12,4 +12,4 @@ install dependeces luarocks for bots telegram
 #Monocomando
 
 
-```git clone https://github.com/george0884/install-luarocks && cd install-luarocks/ && sudo chmod +x install-lua-librery.sh && sudo ./install-lua-librery.sh```
+```git clone https://github.com/george0884/install-luarocks && cd install-luarocks/ && sudo chmod +x install-lua-librery.sh && sudo ./install-lua-librery.sh && cd ..```
