@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt --yes install build-essential libreadline-dev && sudo apt --yes install make && sudo apt --yes install cmake
 
-git clone https://github.com/george0884/lua-curl-error && cd lua-curl-error && unzip curl.zip && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
+git clone https://github.com/george0884/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
 
 curl -R -O http://www.lua.org/ftp/lua-5.3.4.tar.gz && tar -zxf lua-5.3.4.tar.gz && cd lua-5.3.4 && sudo make linux test && sudo make install && cd .. && sudo rm -Rf lua-5.3.4.tar.gz && sudo rm -Rf lua-5.3.4
 
