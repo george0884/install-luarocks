@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "prueba"
+echo "prueba 2"
 sudo apt --yes install build-essential libreadline-dev && sudo apt --yes install make && sudo apt --yes install cmake
 
 git clone https://github.com/george0884/lua-curl-error && cd lua-curl-error && tar -xzvf curl.tar.gz && sudo cp curl -r /usr/include/ && cd .. && sudo rm -Rf lua-curl-error
